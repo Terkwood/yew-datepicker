@@ -128,13 +128,13 @@ impl Component for Datepicker {
 impl Datepicker {
     fn weekday_number_to_string(&self, weekday: &Weekday) -> &'static str {
         match weekday {
-            Weekday::Mon => "Пн",
-            Weekday::Tue => "Вт",
-            Weekday::Wed => "Ср",
-            Weekday::Thu => "Чт",
-            Weekday::Fri => "Пт",
-            Weekday::Sat => "Сб",
-            Weekday::Sun => "Вс",
+            Weekday::Mon => "Mon",
+            Weekday::Tue => "Tue",
+            Weekday::Wed => "Wed",
+            Weekday::Thu => "Thu",
+            Weekday::Fri => "Fri",
+            Weekday::Sat => "Sat",
+            Weekday::Sun => "Sun",
         }
     }
 }
